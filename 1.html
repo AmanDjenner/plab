@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="conditie">
+        <p style="width: 80%">
+          <b>1.</b> Realizaţi o pagină Web în cod HTML cu formularul de maijos
+          cu cîmpurile: pizza, suc, înghețată, cafea, mesaj. Aplicaţistiluri CSS
+          formularului pentru formatare ca în imagine. Elaboraţiun script PHP
+          cevapreluadatele din formularși le vaafișaîntr-o pagină Web.
+          Încazulcînd n-a fostselectatniciuncîmp se vareveni la
+          formularpentrucompletare.
+        </p>
+
+        <div class="row-1">
+          <form class="form-1" action="meniu.php" id="fo-1">
+            <h3 class="h3_form-1">Alegeti Meniul:</h3>
+            <hr id="f1" />
+            <div class="produse">
+              <div class="produse_b1">
+                <div class="b1">
+                  Pizza: <input type="checkbox" name="pizza" value="Pizza" />
+                </div>
+
+                <div class="b1">Suc: <input type="checkbox" name="suc" value="Suc"/></div>
+
+                <div class="b1">
+                  Înghețată: <input type="checkbox" name="inghetata" value="Înghețată" />
+                </div>
+                <div class="b1">
+                  Cafea: <input type="checkbox" name="cofe" value="Cafea" />
+                </div>
+              </div>
+              <div class="produse_b2">
+                Lasați un mesaj:
+                <textarea
+                  name="mesage-f1"
+                  id="form1_textarea"
+                  cols="30"
+                  rows="5"
+                ></textarea
+                ><br />
+              </div>
+
+              <button class="form-1_button" type="submit" form="fo-1" value="Trimite">Trimite</button>
+              <hr id="f1" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

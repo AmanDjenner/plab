@@ -1,0 +1,145 @@
+.conditie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-1 {
+  background-color: #cccccc;
+  width: 390px;
+  height: 290px;
+}
+
+.h3_form-1 {
+  margin: 20px 5px 5px 5px;
+}
+
+#f1 {
+  margin: 0px 5px 0px 5px;
+}
+
+.produse {
+  display: block;
+  /* width: 100px;
+  vertical-align: left; */
+}
+
+.produse_b1 {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 10px 0px 10px 0px;
+}
+
+.produse_b2 {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.form-1_button {
+  background-color: #008000;
+  width: 100px;
+  height: 25px;
+  color: #fff;
+  margin: 10px 0px 10px 40px;
+  cursor: pointer;
+}
+
+.form-2 {
+  width: 440px;
+  height: 350px;
+  background-color: #66ff99;
+  padding: 5px;
+}
+
+.form-31 {
+  width: 600px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+.form-31 input {
+  margin-bottom: 10px;
+}
+.f3_f1 {
+  width: 550px;
+  height: 125px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(/img/user.png);
+  background-repeat: no-repeat;
+  background-position-x: 400px;
+  background-size: contain;
+}
+.f3_f1 .l1i label {
+  display: block;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.l1i {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: bold;
+  margin-left: -21px;
+}
+
+.f3_f2 {
+  width: 550px;
+  height: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(/img/email.png);
+  background-repeat: no-repeat;
+  background-position-x: 400px;
+  background-position-y: center;
+  background-size: 133px;
+}
+
+.f3_f2 .l1 label {
+  display: block;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.l1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: bold;
+}
+#f3_dbrith {
+  margin-top: 7px;
+}
+.f4{
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #87cefa;
+
+}
+.f_table {
+  width: 400px;
+  text-align-last: center;
+
+  background-color: #87cefa;
+}
+.b_f4{
+background-color: red;
+color:yellow;
+font-size: 16px;
+margin: 10px 15px 10px 35px;
+}
